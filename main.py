@@ -22,7 +22,7 @@ class UsersInput:
         @staticmethod
         def check_file_name(file_name):
             if file_name == '' or '.' not in file_name:
-                print('Некорректное название файла вообще-то!')
+                print('Некорректное название файла, попробуйте ещё раз!')
                 sys.exit()
             return file_name
 
